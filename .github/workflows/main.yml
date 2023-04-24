@@ -2,7 +2,7 @@ name: Azure ML Trigger Pipeline Sample
 
 on:
   repository_dispatch:
-    types: [auto-deploy] 
+    types: [hoge] 
 
 defaults:
   run:
