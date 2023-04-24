@@ -1,0 +1,16 @@
+channels:
+  - defaults
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.8.5
+  - numpy=1.24.2
+  - pip
+  - pip:
+    - azureml-defaults
+    - azureml-mlflow==1.42.0
+    - scikit-learn==1.0.2
+    - mlflow== 1.26.1
+    - pandas
+    - sktime
+    - pmdarima
